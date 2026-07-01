@@ -1,0 +1,15 @@
+torch
+transformers
+datasets
+accelerate
+numpy
+scipy
+pandas
+matplotlib
+plotly
+scikit-learn
+networkx
+tqdm
+jupyter
+ipywidgets
+einops
