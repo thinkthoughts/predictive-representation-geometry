@@ -1,0 +1,56 @@
+[
+  {
+    "Stage":"Context",
+    "Focus":"Predictive representation geometry",
+    "Question":"Why measure hidden-state trajectories instead of only output loss?",
+    "Next notebook":"00_context"
+  },
+  {
+    "Stage":"Sentence trajectories",
+    "Focus":"Hidden states by token and layer",
+    "Question":"How do sentence tokens trace paths through model representation space?",
+    "Next notebook":"07_sentence_trajectories"
+  },
+  {
+    "Stage":"Curvature",
+    "Focus":"Angle between adjacent displacement vectors",
+    "Question":"Can we reproduce the trained-vs-untrained curvature profile?",
+    "Next notebook":"13_curvature"
+  },
+  {
+    "Stage":"Cosine alignment",
+    "Focus":"Alignment of adjacent displacement vectors",
+    "Question":"Does an explicit alignment objective amplify useful straightening?",
+    "Next notebook":"17_cosine_alignment"
+  },
+  {
+    "Stage":"Curvature regularization",
+    "Focus":"Direct penalty on trajectory curvature",
+    "Question":"Does curvature regularization improve prediction or make language brittle?",
+    "Next notebook":"23_curvature_regularization"
+  },
+  {
+    "Stage":"Ablations",
+    "Focus":"Loss, surprisal, curvature, generated continuations",
+    "Question":"Which geometric intervention improves prediction without over-flattening?",
+    "Next notebook":"29_ablations"
+  },
+  {
+    "Stage":"Intrinsic dimension",
+    "Focus":"Layerwise dimensionality and manifold structure",
+    "Question":"Does straightening co-evolve with lower intrinsic dimension?",
+    "Next notebook":"37_intrinsic_dimension"
+  },
+  {
+    "Stage":"Scaling",
+    "Focus":"Model size, data scale, regularization strength",
+    "Question":"Do small models benefit more from explicit geometric constraints?",
+    "Next notebook":"43_scaling"
+  },
+  {
+    "Stage":"Future directions",
+    "Focus":"Predictive geometry beyond GPT-style language models",
+    "Question":"Where else does temporal prediction induce trajectory straightening?",
+    "Next notebook":"49_future_directions"
+  }
+]

@@ -1,0 +1,10 @@
+Stage,Focus,Question,Next notebook
+Context,Predictive representation geometry,Why measure hidden-state trajectories instead of only output loss?,00_context
+Sentence trajectories,Hidden states by token and layer,How do sentence tokens trace paths through model representation space?,07_sentence_trajectories
+Curvature,Angle between adjacent displacement vectors,Can we reproduce the trained-vs-untrained curvature profile?,13_curvature
+Cosine alignment,Alignment of adjacent displacement vectors,Does an explicit alignment objective amplify useful straightening?,17_cosine_alignment
+Curvature regularization,Direct penalty on trajectory curvature,Does curvature regularization improve prediction or make language brittle?,23_curvature_regularization
+Ablations,"Loss, surprisal, curvature, generated continuations",Which geometric intervention improves prediction without over-flattening?,29_ablations
+Intrinsic dimension,Layerwise dimensionality and manifold structure,Does straightening co-evolve with lower intrinsic dimension?,37_intrinsic_dimension
+Scaling,"Model size, data scale, regularization strength",Do small models benefit more from explicit geometric constraints?,43_scaling
+Future directions,Predictive geometry beyond GPT-style language models,Where else does temporal prediction induce trajectory straightening?,49_future_directions

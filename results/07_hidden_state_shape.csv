@@ -1,0 +1,5 @@
+axis,name,size
+0,layers including embedding,7
+1,sentences,5
+2,tokens,9
+3,hidden dimension,768
